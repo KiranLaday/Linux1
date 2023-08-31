@@ -1,0 +1,153 @@
+login as: ec2-user
+Authenticating with public key "M-2Machine"
+   ,     #_
+   ~\_  ####_        Amazon Linux 2023
+  ~~  \_#####\
+  ~~     \###|
+  ~~       \#/ ___   https://aws.amazon.com/linux/amazon-linux-2023
+   ~~       V~' '->
+    ~~~         /
+      ~~._.   _/
+         _/ _/
+       _/m/'
+Last login: Thu Aug 31 13:43:25 2023 from 136.226.245.89
+[ec2-user@ip-172-31-47-61 ~]$ Dir
+-bash: Dir: command not found
+[ec2-user@ip-172-31-47-61 ~]$ ls
+Cloud  ShellScripting  Test2  TestDir1  TestDir3  TestDir5  newdir2.tar
+Dir1   Test1           Test3  TestDir2  TestDir4  TestDir6  testdir1
+[ec2-user@ip-172-31-47-61 ~]$ catfile1.txt file2.txt
+-bash: catfile1.txt: command not found
+[ec2-user@ip-172-31-47-61 ~]$ cat > Kiran.text
+welcome to samsung India ^C
+[ec2-user@ip-172-31-47-61 ~]$ Cat >> Samsung.text
+-bash: Cat: command not found
+[ec2-user@ip-172-31-47-61 ~]$ Cat >> Kiran.text
+-bash: Cat: command not found
+[ec2-user@ip-172-31-47-61 ~]$ Cat > Kiran . Text
+-bash: Cat: command not found
+[ec2-user@ip-172-31-47-61 ~]$ Cat > Kiran.text^C
+[ec2-user@ip-172-31-47-61 ~]$ Cat >> Kiran.text^C
+[ec2-user@ip-172-31-47-61 ~]$ echo "Display this text"
+Display this text
+[ec2-user@ip-172-31-47-61 ~]$ History
+-bash: History: command not found
+[ec2-user@ip-172-31-47-61 ~]$ echo 'This Cloud computing cohort is deliver by Ki                                      ran'> hp1.txt
+[ec2-user@ip-172-31-47-61 ~]$ echo 'In Cloud computing we are mostly going to focus on AWS and DEVops tools'  >>hp1.txt
+[ec2-user@ip-172-31-47-61 ~]$ History
+-bash: History: command not found
+[ec2-user@ip-172-31-47-61 ~]$ sudo yum install tree -y
+Last metadata expiration check: 23:42:53 ago on Wed Aug 30 14:36:56 2023.
+Dependencies resolved.
+======================================================================================================================
+ Package              Architecture           Version                                Repository                   Size
+======================================================================================================================
+Installing:
+ tree                 x86_64                 1.8.0-6.amzn2023.0.2                   amazonlinux                  56 k
+
+Transaction Summary
+======================================================================================================================
+Install  1 Package
+
+Total download size: 56 k
+Installed size: 113 k
+Downloading Packages:
+tree-1.8.0-6.amzn2023.0.2.x86_64.rpm                                                  881 kB/s |  56 kB     00:00
+----------------------------------------------------------------------------------------------------------------------
+Total                                                                                 469 kB/s |  56 kB     00:00
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                              1/1
+  Installing       : tree-1.8.0-6.amzn2023.0.2.x86_64                                                             1/1
+  Running scriptlet: tree-1.8.0-6.amzn2023.0.2.x86_64                                                             1/1
+  Verifying        : tree-1.8.0-6.amzn2023.0.2.x86_64                                                             1/1
+
+Installed:
+  tree-1.8.0-6.amzn2023.0.2.x86_64
+
+Complete!
+[ec2-user@ip-172-31-47-61 ~]$ ls -a
+.              .bash_logout   .ssh   Kiran         ShellScripting  Test3     TestDir3  TestDir6     testdir1
+..             .bash_profile  Cloud  Kiran.text    Test1           TestDir1  TestDir4  hp1.txt
+.bash_history  .bashrc        Dir1   Samsung.text  Test2           TestDir2  TestDir5  newdir2.tar
+[ec2-user@ip-172-31-47-61 ~]$ touch .file4.txt
+[ec2-user@ip-172-31-47-61 ~]$ Cat >> Kiran.text
+-bash: Cat: command not found
+[ec2-user@ip-172-31-47-61 ~]$ Cat  >> kiran. text^C
+[ec2-user@ip-172-31-47-61 ~]$ history
+    1  mkdir TestDir1
+    2  mkdir TestDir2
+    3  mkdir TestDir3
+    4  Ls
+    5  pwd
+    6  ls
+    7  mkdir TestDir1
+    8  mkdir testdir1
+    9  ls
+   10  clear
+   11  mkdir -V TestDir4
+   12  mkdir -v TestDir4
+   13  mkdir -V Testdir5
+   14  mkdir-v TestDir5
+   15  mkdir -v TestDir5
+   16  mkdir -v TestDir6
+   17  mkdir -p Cloud/AWS/Ec2
+   18  ls
+   19  mkdir ShellScripting
+   20  ls
+   21  cd
+   22  pwd
+   23  Clear
+   24  tree
+   25  Sudo yum install tree
+   26  clear
+   27  sudo yum install tree
+   28  cd..
+   29  cd ..
+   30  ls
+   31  tree
+   32        cclear
+   33  clear
+   34  cd ..
+   35  ls
+   36  tree
+   37  ls
+   38  ls - lt (Desending Order)
+   39  ls - ltr (Ascending Order )
+   40  ls - ltr Decending order
+   41  Clear
+   42  clear
+   43  ls
+   44  Cd Cloud/
+   45  sudo yum install tree -y
+   46  sudo yum install tree
+   47  yum install tree
+   48  History
+   49  mkdir TestDir1
+   50  sudo yum remove tree -y
+   51  tree
+   52   tree
+   53  Dir
+   54  ls
+   55  catfile1.txt file2.txt
+   56  cat > Kiran.text
+   57  Cat >> Samsung.text
+   58  Cat >> Kiran.text
+   59  Cat > Kiran . Text
+   60  echo "Display this text"
+   61  History
+   62  echo 'This Cloud computing cohort is deliver by Kiran'> hp1.txt
+   63  echo 'In Cloud computing we are mostly going to focus on AWS and DEVops tools'  >>hp1.txt
+   64  History
+   65  sudo yum install tree -y
+   66  ls -a
+   67  touch .file4.txt
+   68  Cat >> Kiran.text
+   69  history
+[ec2-user@ip-172-31-47-61 ~]$ ^C
+[ec2-user@ip-172-31-47-61 ~]$ ^C
+[ec2-user@ip-172-31-47-61 ~]$ ^C
+[ec2-user@ip-172-31-47-61 ~]$
